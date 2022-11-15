@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins&display=swap');
+
+body {
+    background: url(images/container_bg.jpg) no-repeat top center;
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #d1491f;
+}
+
+h1 {
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;
+    font-size: 18pt;
+}
+
+h2 {
+    font-weight: 700;
+    text-align: center;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+section {
+    background: rgba(255, 255, 255, 0.932);
+    padding: 1em;
+}
+
+.events, .sidebar, .search-eat, .footer-bar {
+    background: #fdb33e;
+}
+
+.sidebar-piece ul, .sidebar-piece li {
+    list-style-type: none;
+}
+
+.sidebar-piece a, .events a {
+    color: #041d36;
+}
+
+.socials ul {
+    text-align: center;
+}
+
+.socials li {
+    display: inline;
+}
+
+.footer-bar a {
+    color: black;
+    border: #fff 2px;
+    font-size: 12pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer-bar a:hover {
+    color: #383838;
+}
+
+footer {
+    padding-bottom: 1em;
+}
+
+@media (min-width: 758px) {
+    h1 {
+        min-width: 4em;
+    }
+
+    .main-menu a:hover, .main-menu a:focus {
+        background-color: #396188;
+        text-decoration: none;
+    }
+
+    /* .container {
+        gap: 0 1em;
+    } */
+}
+
